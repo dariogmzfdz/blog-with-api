@@ -55,14 +55,31 @@ fetch("http://localhost:3000/posts", {
             postBtn.textContent = "Open post"
             postBtn.classList.add("btn", "btn-primary");
             postDiv.appendChild(postBtn);
-
-
+         
 
             postContainer.appendChild(postDiv);
         });
+<<<<<<< Updated upstream
 
         const postsInScreen = document.querySelectorAll(".post-container .posts");
         let lastPost = postsInScreen[postsInScreen.length - 1];
         console.log(lastPost);
         observer.observe(lastPost);
     })
+=======
+    })
+ 
+//     function view() {
+ 
+//   postModal.innerHTML =  `
+ 
+//   <div class="modal-content">
+// <h1>hola</h1>
+//       <span class="modal-close">Close</span>
+//     </div>
+// </div>
+// `  }
+// postModal.addEventListener("click", function (e) {
+//   let modal  = e.target.getAttribute("modal")
+// })
+>>>>>>> Stashed changes
