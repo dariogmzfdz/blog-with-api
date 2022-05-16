@@ -66,8 +66,8 @@ fetch("http://localhost:3000/posts", {
         console.log(lastPost);
         observer.observe(lastPost);
     })
-=======
-    })
+
+
  
 //     function view() {
  
